@@ -18,6 +18,7 @@ type Task = {
 	category: string;
 	completed: boolean;
 };
+console.log("testGit")
 
 const App = () => {
 	const [tasks, setTasks] = useState<Task[]>([]);
